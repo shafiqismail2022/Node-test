@@ -1,0 +1,6 @@
+const name=require('./names.js')
+const sayHi=require('./utils.js')
+sayHi('susan')
+sayHi(name.john)
+sayHi(name.smi)
+require('./minegrade.js')
